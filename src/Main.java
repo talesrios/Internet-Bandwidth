@@ -73,7 +73,6 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        // TRUQUE PARA O VS CODE VS UVA:
         // Verifica se o arquivo local existe. Se sim, redireciona o System.in para ele.
         // No servidor do UVA esse arquivo não existirá, então ele usará o System.in normal.
         File inputFile = new File("dados/entradas_do_problema.txt");
